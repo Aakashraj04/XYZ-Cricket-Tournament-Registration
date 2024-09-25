@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.bd {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    background-image: url('login and signup.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 270px;
+    transition: background-position 0.1s ease;
+}
+
+.login-container {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.toggle-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.toggle-btn button {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f5;
+    border-radius: 5px;
+}
+
+.toggle-btn button.active {
+    background-color: #1f1235;
+    color: white;
+}
+
+.form {
+    transition: all 0.3s ease;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #8a3df0;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.submit-btn:hover {
+    background-color: #6a2bc7;
+}
+
+.auth-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.google-btn {
+    background-color: white;
+    color: #4285F4;
+}
+
+.microsoft-btn {
+    background-color: white;
+    color: #00A4EF;
+}
+
+.auth-btn img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.auth-btn:hover {
+    background-color: #f0f0f5;
+}
