@@ -1,7 +1,7 @@
 {
   "name": "my-project",
   "private": true,
-  "homepage": "./https://aakashraj04.github.io/XYZ-Cricket-Tournament-Registration/",
+  "homepage": "https://aakashraj04.github.io/XYZ-Cricket-Tournament-Registration/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
